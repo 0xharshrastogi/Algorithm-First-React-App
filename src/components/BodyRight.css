@@ -1,0 +1,22 @@
+.output {
+	background-color: var(--nuetral-700);
+	color: var(--nuetral-300);
+	padding: 1rem;
+	border-radius: 0.5rem;
+	font-family: "Roboto Mono";
+	line-height: 1;
+	min-height: 150px;
+	max-height: 400px;
+}
+
+.output h2 {
+	margin-bottom: 1rem;
+}
+
+@media (min-width: 500px) {
+	.output {
+		min-height: initial;
+		position: sticky;
+		top: 100px;
+	}
+}

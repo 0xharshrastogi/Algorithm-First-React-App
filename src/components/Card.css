@@ -1,0 +1,17 @@
+.card {
+	width: 100%;
+	box-shadow: 0px 1px 3px #00000047, 0 0 3px #0000002e;
+	border-radius: 8.1px;
+	padding: 1rem;
+	transition: box-shadow 250ms ease-in;
+}
+
+.card:hover {
+	box-shadow: 0px 1px 3px #00000047, 0 0 10px #0000003f;
+}
+
+@media (min-width: 500px) {
+	.card {
+		width: 100%;
+	}
+}

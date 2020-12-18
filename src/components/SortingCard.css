@@ -1,0 +1,55 @@
+.selection-menu {
+	margin-left: 10px;
+}
+
+.selection-menu label {
+	display: block;
+	line-height: 1;
+	font-family: "Roboto";
+	font-size: 0.8rem;
+	margin-bottom: 0.5rem;
+}
+
+.selection-menu select {
+	padding: 0.5rem 4rem 0.5rem 2px;
+	background: var(--nuetral-300);
+	border: none;
+	cursor: pointer;
+	text-transform: capitalize;
+	font-size: 0.8rem;
+	font-family: "Roboto Mono";
+	font-weight: 500;
+	color: var(--nuetral-700);
+	transition: background-color 100ms ease-in-out;
+	border-radius: 0.5rem;
+	outline: none;
+	/* pointer-events: none; */
+}
+
+.selection-menu select:hover {
+	background-color: rgb(202 201 201);
+}
+
+.selection-menu select:focus {
+	background-color: rgb(195 195 195);
+	outline: none;
+}
+
+.selection-menu > div {
+	position: relative;
+	display: inline-block;
+}
+
+.selection-menu span {
+	--size: 4px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	right: 0;
+	top: 0;
+	height: 32px;
+	width: 32px;
+	/* background-color: rgb(255 0 0); */
+	pointer-events: none;
+}

@@ -1,0 +1,28 @@
+button {
+	margin: 1.4rem auto 0 auto;
+	display: block;
+	padding: 0.4rem 1rem;
+	min-width: 6rem;
+	text-align: center;
+	background-color: var(--secondry);
+	color: var(--nuetral-0);
+	border: none;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: background-color 150ms;
+}
+
+button:hover {
+	background: rgb(29 131 189);
+}
+
+button:focus {
+	outline: none;
+}
+
+button:active {
+	background-color: rgb(33 105 146);
+	outline: none;
+	transform: scale(0.97);
+}

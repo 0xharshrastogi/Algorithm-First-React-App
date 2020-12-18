@@ -1,0 +1,10 @@
+.card-title {
+	margin-bottom: 1.5rem;
+}
+
+.card-title h2 {
+	font-family: var(--roboto-con);
+	font-size: 1.3rem;
+	color: var(--nuetral-400);
+	text-transform: capitalize;
+}

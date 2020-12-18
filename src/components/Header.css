@@ -1,0 +1,9 @@
+.head-wrapper {
+	padding: 1.2rem 0;
+	margin-inline: auto;
+	width: min(90%, 60rem);
+}
+
+.head-wrapper h1 {
+	font-size: 3.5rem;
+}

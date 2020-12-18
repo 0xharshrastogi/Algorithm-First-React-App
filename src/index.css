@@ -1,0 +1,38 @@
+:root {
+	--nuetral-0: #fff;
+	--nuetral-300: #d9d9d9;
+	--nuetral-400: #666666;
+	--nuetral-700: #535353;
+
+	--secondry: #217fb4;
+
+	/* fonts */
+
+	--roboto: "Roboto", sans-serif;
+	--roboto-mono: "Roboto Mono", monospace;
+	--roboto-con: "Roboto Condensed", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: var(--nuetral-700);
+	background-color: var(--nuetral-0);
+
+	font-family: var(--roboto-con);
+	line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	line-height: 1;
+}

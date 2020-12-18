@@ -1,0 +1,35 @@
+.input-field {
+	margin: 1.25rem 10px 5px 5px;
+	padding-left: 5px;
+}
+
+.input-field label {
+	display: block;
+	line-height: 1;
+	font-family: "Roboto";
+	font-size: 0.8rem;
+	margin-bottom: 0.5rem;
+}
+
+.input-field input {
+	border: none;
+	outline: none;
+	font-family: var(--roboto-mono);
+	background-color: var(--nuetral-300);
+	padding: 0.5rem 0 0.5rem 5px;
+	font-family: var(--roboto-mono);
+	cursor: text;
+	border-radius: 0.3rem;
+	margin-top: 3px;
+	width: 100%;
+
+	transition: background-color 100ms ease-in-out;
+}
+
+.input-field input:hover {
+	background-color: rgb(202 201 201);
+}
+
+.input-field input:focus {
+	background-color: rgb(195 195 195);
+}
