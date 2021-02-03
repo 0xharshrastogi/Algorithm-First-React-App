@@ -1,14 +1,20 @@
-import React from "react";
-import "./BodyLeft.css";
-import SortingCard from "./SortingCard";
-import NaivaCard from "./NaivaCard";
-import Longest from "./Longest";
-import Prefix from "./Prefix";
-import Kmp from "./Kmp";
+import React from 'react';
+import './BodyLeft.css';
+import SortingCard from './SortingCard';
+import NaivaCard from './NaivaCard';
+import Longest from './Longest';
+import Prefix from './Prefix';
+import Kmp from './Kmp';
+import KnapSack from './KnapSack';
+import RabinKarp from './RabinKarp';
+import MinimumSpanningTree from './MST/MinimumSpanningTree';
 
-const BodyLeft = () => {
+const BodyLeft = ({ setOutput }) => {
 	return (
-		<section className="container left-body mt2" data-side="left">
+		<section
+			className="container left-body mt2"
+			data-side="left"
+		>
 			{/* sorting card */}
 			<SortingCard />
 
@@ -20,7 +26,13 @@ const BodyLeft = () => {
 
 			<Prefix />
 
+			<KnapSack />
+
 			<Kmp />
+
+			<RabinKarp setOutput={setOutput} />
+
+			<MinimumSpanningTree setOutput={setOutput} />
 		</section>
 	);
 };
